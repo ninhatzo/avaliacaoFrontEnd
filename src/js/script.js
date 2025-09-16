@@ -6,7 +6,7 @@ function validaForm() {
     let maiorNumero = 0;
     let menorNumero = 0;
     let somaTodos = 0;
-    let media = 0;
+    let media = 0;   
 
     if(document.form.txtnum.value=="") {
         alert("Preencha o campo do número!");
@@ -47,7 +47,7 @@ function validaForm() {
                 
             }
     }
-    
+
         console.log("Quantidade de números digitados: ", contador);
         console.log("Maior número inserido:", maiorNumero);
         console.log("Menor número inserido:", menorNumero);
